@@ -1,0 +1,2 @@
+# 7MinuteWorkout
+ The 7-Minute Workout App is a fitness application designed to guide users through a quick and effective workout routine that can be completed in just 7 minutes. This app aims to provide a convenient and time-efficient solution for users who want to stay active and maintain their fitness level even with a busy schedule. The app will be developed using Kotlin for the logic and XML for the user interface.
