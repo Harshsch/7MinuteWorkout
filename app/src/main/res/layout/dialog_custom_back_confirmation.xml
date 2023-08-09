@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15sp"
+
+    >
+    <TextView
+        android:id="@+id/areYouSure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/are_you_sure"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_will_stop_your_workout_you_ve_come_this_far_are_you_sureyou_want_to_quit"
+        android:gravity="center">
+
+    </TextView>
+    <LinearLayout
+        android:id="@+id/YesNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnyes"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:shadowColor="@color/black"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/btnno"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_margin="15dp"
+
+            android:gravity="center">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
